@@ -1,0 +1,28 @@
+GET  http://localhost:3333/memories
+
+###
+GET  http://localhost:3333/memories/3b0b7e39-ddd1-4d24-8aaf-06a120519076
+
+
+###
+POST http://localhost:3333/memories
+Content-Type: application/json
+
+{
+    "content": "teste",
+    "coverurl": "teste"
+}
+
+###
+
+PUT http://localhost:3333/memories/347362e1-76f4-4b14-adca-7e33fd1657b3
+Content-Type: application/json
+
+ {
+    "content": "Atualizando",
+    "coverurl": "teste...Atualizando"
+ }
+
+###
+DELETE http://localhost:3333/memories/347362e1-76f4-4b14-adca-7e33fd1657b3
+
