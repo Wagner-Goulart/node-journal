@@ -1,0 +1,27 @@
+GET http://localhost:3000/
+
+###
+
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "title":"O Império contra-atavca",
+    "description": "Lorem Ipsum Teste 2",
+    "image_url":"Endereço Imagem teste 2",
+    "trailer_url":"Trailer URL 2"
+}
+
+###
+DELETE http://localhost:3000/654c37b823ac2f7b752f1d4a
+
+###
+PUT http://localhost:3000/654c390e50e6a581681eb2dc
+Content-Type: application/json
+
+{
+    "title":"O Império contra-ataca",
+    "description": "Lorem Ipsum Teste 2",
+    "image_url":"Endereço Imagem teste 2",
+    "trailer_url":"Trailer URL 2"
+}
